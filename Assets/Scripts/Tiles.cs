@@ -15,7 +15,7 @@ public class Tiles : MonoBehaviour
         {
             bool isOccupied = false;
 
-            foreach (Vector2 i in GreenGrids.Instance.enemyOccupiedPositions)
+            foreach (Vector2 i in GameGridGenerator.Instance.enemyOccupiedPositions)
             {
                 if (new Vector2(posX, posY) == i)
                 {
